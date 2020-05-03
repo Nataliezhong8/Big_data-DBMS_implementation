@@ -1,3 +1,4 @@
+-- Using PostgreSQl catalog to write a function pop() to return table name and # of tuples in a table for all tables in the public schema 
 -- Assumes: create type TableInfo as ("table" text, ntuples int);
 
 drop type if exists TableInfo cascade;
